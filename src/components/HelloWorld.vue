@@ -92,6 +92,17 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  metaInfo: {
+    title: 'My Example App', // set a title
+    meta: [{ // set meta
+      name: 'keyWords',
+      content: 'My Example App'
+    }],
+    link: [{ // set link
+      rel: 'asstes',
+      href: 'https://assets-cdn.github.com/'
+    }]
   }
 }
 </script>
