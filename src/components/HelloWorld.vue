@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <router-link to="/about">about</router-link>
+    <router-link to="/contact">contact</router-link>
     <h2>Essential Links</h2>
     <ul>
       <li>

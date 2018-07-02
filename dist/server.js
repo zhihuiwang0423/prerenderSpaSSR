@@ -1,7 +1,7 @@
 var http = require('http')
 var fs = require('fs')// 引入文件读取模块
 
-var documentRoot = 'E:/04github/prerenderSpaSSR/dist/'
+var documentRoot = '/Users/wangzhihui/Desktop/newgithub/prerenderSpaSSR/dist/'
 // 需要访问的文件的存放目录
 
 http.createServer(function (req, res) {
